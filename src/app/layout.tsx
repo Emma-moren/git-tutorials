@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { useEffect, useState } from "react";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,11 @@ export default function RootLayout({
         <ThemeProvider attribute="data-theme" defaultTheme="light" enableSystem>
           <div className="app-container">{children}</div>
         </ThemeProvider>
+        <Script
+          id="hubspot-script"
+          strategy="afterInteractive"
+          src="//js-eu1.hs-scripts.com/146013425.js"
+        />
       </body>
     </html>
   );
