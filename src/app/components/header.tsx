@@ -1,8 +1,6 @@
 "use client";
 import "ldrs/ring";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-import { FaGithub, FaLinkedinIn, FaGlobe, FaMailBulk } from "react-icons/fa";
 
 // Typing animation component with repeat
 function TypingText({

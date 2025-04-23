@@ -1,15 +1,5 @@
-import { Quote } from "lucide-react";
 import Link from "next/link";
-import {
-  Github,
-  Twitter,
-  Linkedin,
-  Home,
-  User,
-  Mail,
-  Share,
-  BookOpen,
-} from "lucide-react";
+import { Github, Twitter, Linkedin } from "lucide-react";
 
 export function Footer() {
   const socialLinks = [

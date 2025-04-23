@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, User, Mail, Share, BookOpen } from "lucide-react";
+import { Home, User, Share, BookOpen } from "lucide-react";
 import { cn } from "../lib/utils";
 
 export function Nav() {

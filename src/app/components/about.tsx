@@ -1,7 +1,5 @@
 "use client";
 import { useRef, useEffect } from "react";
-import Image from "next/image";
-
 export default function About() {
   const videoRef = useRef<HTMLVideoElement>(null);
 

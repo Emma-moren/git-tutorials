@@ -16,13 +16,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Since we're using 'use client', we can't export metadata directly
-// You'll need to create a separate metadata.ts file in the app directory
-// export const metadata = {
-//   title: "Beatrice Egumandi - Frontend Software Engineer",
-//   description: "Portfolio of Beatrice Egumandi, Frontend Software Engineer",
-// };
-
 export default function RootLayout({
   children,
 }: Readonly<{
